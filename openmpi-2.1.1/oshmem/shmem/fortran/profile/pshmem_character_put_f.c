@@ -1,0 +1,1 @@
+../../../../oshmem/shmem/fortran/shmem_character_put_f.c

@@ -1,0 +1,1 @@
+../../../../oshmem/shmem/fortran/shmem_getmem_f.c

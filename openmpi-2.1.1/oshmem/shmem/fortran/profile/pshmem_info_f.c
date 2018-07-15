@@ -1,0 +1,1 @@
+../../../../oshmem/shmem/fortran/shmem_info_f.c
