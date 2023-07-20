@@ -1,12 +1,11 @@
 # Important notice
 See [this RapidCFD issue](https://github.com/SimFlowCFD/RapidCFD-dev/issues/107#issue-1813038316), and in particular, 
-```
-ThirdParty-dev is downloaded from https://github.com/TonkomoLLC/ThirdParty-dev
-I found that wmake try to access '$HOME/RapidCFD/ThirdParty-dev/openmpi-4.0.2' due to line 403 in '$HOME/RapidCFD/RapidCFD-dev/etc/config/settings.sh
-    export FOAM_MPI=openmpi-4.0.2
-But there is only openmpi-2.1.1 so it fails to achieve what intended.
-I downloaded source of openmpi-4.0.2 from https://www.open-mpi.org/software/ompi/v4.1/ But still, Allwmake shows error for mpi.h is missing
-```
+
+wmake tries to access openmpi-4.0.2' due to line 403 in RapidCFD-dev/etc/config/settings.sh: export FOAM_MPI=openmpi-4.0.2
+
+But there is only openmpi-2.1.1 in this ThirdParty-dev repo.
+
+The source of openmpi-4.0.2 can be downloaded from https://www.open-mpi.org/software/ompi/v4.1/ But still, Allwmake shows error for mpi.h is missing
 
 #                            -*- mode: org; -*-
 #
